@@ -18,7 +18,7 @@ int main(void)
     JoinGameScreen joinGameScreen;
     HighScoreScreen highScoreScreen;
     ExitConfirmScreen exitConfirmScreen;
-    sf::RenderWindow gameWindow (sf::VideoMode(1366,768), "Lan Casino"/*, sf::Style::Fullscreen*/);
+    sf::RenderWindow gameWindow (sf::VideoMode(1366,768), "Lan Casino", sf::Style::Fullscreen);
     int screenId = 0;
     std::vector<cardgame::Screen*>screens;
 
